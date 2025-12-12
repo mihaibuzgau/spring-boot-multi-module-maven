@@ -1,0 +1,1742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.6" serialNumber="urn:uuid:12237fea-10d1-4b25-8db0-f295495fd658" version="1">
+    <metadata>
+        <timestamp>2025-12-12T07:47:34Z</timestamp>
+        <tools>
+            <components>
+                <component type="application">
+                    <author>Snyk</author>
+                    <name>snyk-cli</name>
+                    <version>1.1301.0-dev.92f66d67f93d3a83670a8ee9f942a88a11ad0b59</version>
+                </component>
+            </components>
+            <services>
+                <service>
+                    <provider>
+                        <name>Snyk</name>
+                    </provider>
+                    <name>SBOM Export API</name>
+                    <version>v1.122.0-4-gf98bcea</version>
+                </service>
+            </services>
+        </tools>
+        <component bom-ref="1-com.demo:Demo@1.0.0-SNAPSHOT" type="application">
+            <name>com.demo:Demo</name>
+            <version>1.0.0-SNAPSHOT</version>
+            <purl>pkg:maven/com.demo/Demo@1.0.0-SNAPSHOT</purl>
+        </component>
+    </metadata>
+    <components>
+        <component bom-ref="2-org.springframework.boot:spring-boot-starter-test@3.0.3" type="library">
+            <group>org.springframework.boot</group>
+            <name>org.springframework.boot:spring-boot-starter-test</name>
+            <version>3.0.3</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.springframework.boot/spring-boot-starter-test@3.0.3</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">test</property>
+            </properties>
+        </component>
+        <component bom-ref="3-org.xmlunit:xmlunit-core@2.9.1" type="library">
+            <group>org.xmlunit</group>
+            <name>org.xmlunit:xmlunit-core</name>
+            <version>2.9.1</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.xmlunit/xmlunit-core@2.9.1</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">test</property>
+            </properties>
+        </component>
+        <component bom-ref="4-jakarta.xml.bind:jakarta.xml.bind-api@4.0.0" type="library">
+            <group>jakarta.xml.bind</group>
+            <name>jakarta.xml.bind:jakarta.xml.bind-api</name>
+            <version>4.0.0</version>
+            <licenses>
+                <expression>EDL-1.0</expression>
+            </licenses>
+            <purl>pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.0</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">test</property>
+            </properties>
+        </component>
+        <component bom-ref="5-org.springframework:spring-test@6.0.5" type="library">
+            <group>org.springframework</group>
+            <name>org.springframework:spring-test</name>
+            <version>6.0.5</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.springframework/spring-test@6.0.5</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">test</property>
+            </properties>
+        </component>
+        <component bom-ref="6-org.springframework:spring-core@6.0.5" type="library">
+            <group>org.springframework</group>
+            <name>org.springframework:spring-core</name>
+            <version>6.0.5</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.springframework/spring-core@6.0.5</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">test</property>
+            </properties>
+        </component>
+        <component bom-ref="7-org.springframework:spring-core@6.0.5" type="library">
+            <group>org.springframework</group>
+            <name>org.springframework:spring-core</name>
+            <version>6.0.5</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.springframework/spring-core@6.0.5</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="8-org.springframework:spring-jcl@6.0.5" type="library">
+            <group>org.springframework</group>
+            <name>org.springframework:spring-jcl</name>
+            <version>6.0.5</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.springframework/spring-jcl@6.0.5</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="9-org.skyscreamer:jsonassert@1.5.1" type="library">
+            <group>org.skyscreamer</group>
+            <name>org.skyscreamer:jsonassert</name>
+            <version>1.5.1</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.skyscreamer/jsonassert@1.5.1</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">test</property>
+            </properties>
+        </component>
+        <component bom-ref="10-com.vaadin.external.google:android-json@0.0.20131108.vaadin1" type="library">
+            <group>com.vaadin.external.google</group>
+            <name>com.vaadin.external.google:android-json</name>
+            <version>0.0.20131108.vaadin1</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/com.vaadin.external.google/android-json@0.0.20131108.vaadin1</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">test</property>
+            </properties>
+        </component>
+        <component bom-ref="11-org.mockito:mockito-junit-jupiter@4.8.1" type="library">
+            <group>org.mockito</group>
+            <name>org.mockito:mockito-junit-jupiter</name>
+            <version>4.8.1</version>
+            <licenses>
+                <expression>MIT</expression>
+            </licenses>
+            <purl>pkg:maven/org.mockito/mockito-junit-jupiter@4.8.1</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">test</property>
+            </properties>
+        </component>
+        <component bom-ref="12-org.junit.jupiter:junit-jupiter-api@5.9.2" type="library">
+            <group>org.junit.jupiter</group>
+            <name>org.junit.jupiter:junit-jupiter-api</name>
+            <version>5.9.2</version>
+            <licenses>
+                <expression>EPL-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.junit.jupiter/junit-jupiter-api@5.9.2</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">test</property>
+            </properties>
+        </component>
+        <component bom-ref="13-org.mockito:mockito-core@4.8.1" type="library">
+            <group>org.mockito</group>
+            <name>org.mockito:mockito-core</name>
+            <version>4.8.1</version>
+            <licenses>
+                <expression>MIT</expression>
+            </licenses>
+            <purl>pkg:maven/org.mockito/mockito-core@4.8.1</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">test</property>
+            </properties>
+        </component>
+        <component bom-ref="14-org.objenesis:objenesis@3.2" type="library">
+            <group>org.objenesis</group>
+            <name>org.objenesis:objenesis</name>
+            <version>3.2</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.objenesis/objenesis@3.2</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">test</property>
+            </properties>
+        </component>
+        <component bom-ref="15-net.bytebuddy:byte-buddy-agent@1.12.23" type="library">
+            <group>net.bytebuddy</group>
+            <name>net.bytebuddy:byte-buddy-agent</name>
+            <version>1.12.23</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/net.bytebuddy/byte-buddy-agent@1.12.23</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">test</property>
+            </properties>
+        </component>
+        <component bom-ref="16-net.bytebuddy:byte-buddy@1.12.23" type="library">
+            <group>net.bytebuddy</group>
+            <name>net.bytebuddy:byte-buddy</name>
+            <version>1.12.23</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/net.bytebuddy/byte-buddy@1.12.23</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">test</property>
+            </properties>
+        </component>
+        <component bom-ref="17-org.junit.jupiter:junit-jupiter@5.9.2" type="library">
+            <group>org.junit.jupiter</group>
+            <name>org.junit.jupiter:junit-jupiter</name>
+            <version>5.9.2</version>
+            <licenses>
+                <expression>EPL-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.junit.jupiter/junit-jupiter@5.9.2</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">test</property>
+            </properties>
+        </component>
+        <component bom-ref="18-org.junit.jupiter:junit-jupiter-engine@5.9.2" type="library">
+            <group>org.junit.jupiter</group>
+            <name>org.junit.jupiter:junit-jupiter-engine</name>
+            <version>5.9.2</version>
+            <licenses>
+                <expression>EPL-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.9.2</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">test</property>
+            </properties>
+        </component>
+        <component bom-ref="19-org.junit.jupiter:junit-jupiter-params@5.9.2" type="library">
+            <group>org.junit.jupiter</group>
+            <name>org.junit.jupiter:junit-jupiter-params</name>
+            <version>5.9.2</version>
+            <licenses>
+                <expression>EPL-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.junit.jupiter/junit-jupiter-params@5.9.2</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">test</property>
+            </properties>
+        </component>
+        <component bom-ref="20-org.hamcrest:hamcrest@2.2" type="library">
+            <group>org.hamcrest</group>
+            <name>org.hamcrest:hamcrest</name>
+            <version>2.2</version>
+            <licenses>
+                <expression>BSD-2-Clause</expression>
+            </licenses>
+            <purl>pkg:maven/org.hamcrest/hamcrest@2.2</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">test</property>
+            </properties>
+        </component>
+        <component bom-ref="21-org.assertj:assertj-core@3.23.1" type="library">
+            <group>org.assertj</group>
+            <name>org.assertj:assertj-core</name>
+            <version>3.23.1</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.assertj/assertj-core@3.23.1</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">test</property>
+            </properties>
+        </component>
+        <component bom-ref="22-jakarta.xml.bind:jakarta.xml.bind-api@4.0.0" type="library">
+            <group>jakarta.xml.bind</group>
+            <name>jakarta.xml.bind:jakarta.xml.bind-api</name>
+            <version>4.0.0</version>
+            <licenses>
+                <expression>EDL-1.0</expression>
+            </licenses>
+            <purl>pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.0</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="23-jakarta.activation:jakarta.activation-api@2.1.1" type="library">
+            <group>jakarta.activation</group>
+            <name>jakarta.activation:jakarta.activation-api</name>
+            <version>2.1.1</version>
+            <licenses>
+                <expression>EDL-1.0</expression>
+            </licenses>
+            <purl>pkg:maven/jakarta.activation/jakarta.activation-api@2.1.1</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="24-com.jayway.jsonpath:json-path@2.7.0" type="library">
+            <group>com.jayway.jsonpath</group>
+            <name>com.jayway.jsonpath:json-path</name>
+            <version>2.7.0</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/com.jayway.jsonpath/json-path@2.7.0</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">test</property>
+            </properties>
+        </component>
+        <component bom-ref="25-org.slf4j:slf4j-api@2.0.6" type="library">
+            <group>org.slf4j</group>
+            <name>org.slf4j:slf4j-api</name>
+            <version>2.0.6</version>
+            <licenses>
+                <expression>MIT</expression>
+            </licenses>
+            <purl>pkg:maven/org.slf4j/slf4j-api@2.0.6</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">test</property>
+            </properties>
+        </component>
+        <component bom-ref="26-net.minidev:json-smart@2.4.8" type="library">
+            <group>net.minidev</group>
+            <name>net.minidev:json-smart</name>
+            <version>2.4.8</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/net.minidev/json-smart@2.4.8</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">test</property>
+            </properties>
+        </component>
+        <component bom-ref="27-net.minidev:accessors-smart@2.4.8" type="library">
+            <group>net.minidev</group>
+            <name>net.minidev:accessors-smart</name>
+            <version>2.4.8</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/net.minidev/accessors-smart@2.4.8</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">test</property>
+            </properties>
+        </component>
+        <component bom-ref="28-org.ow2.asm:asm@9.1" type="library">
+            <group>org.ow2.asm</group>
+            <name>org.ow2.asm:asm</name>
+            <version>9.1</version>
+            <licenses>
+                <expression>BSD-3-Clause</expression>
+            </licenses>
+            <purl>pkg:maven/org.ow2.asm/asm@9.1</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">test</property>
+            </properties>
+        </component>
+        <component bom-ref="29-org.springframework.boot:spring-boot-test-autoconfigure@3.0.3" type="library">
+            <group>org.springframework.boot</group>
+            <name>org.springframework.boot:spring-boot-test-autoconfigure</name>
+            <version>3.0.3</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.springframework.boot/spring-boot-test-autoconfigure@3.0.3</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">test</property>
+            </properties>
+        </component>
+        <component bom-ref="30-org.springframework.boot:spring-boot-autoconfigure@3.0.3" type="library">
+            <group>org.springframework.boot</group>
+            <name>org.springframework.boot:spring-boot-autoconfigure</name>
+            <version>3.0.3</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.springframework.boot/spring-boot-autoconfigure@3.0.3</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">test</property>
+            </properties>
+        </component>
+        <component bom-ref="31-org.springframework.boot:spring-boot-test@3.0.3" type="library">
+            <group>org.springframework.boot</group>
+            <name>org.springframework.boot:spring-boot-test</name>
+            <version>3.0.3</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.springframework.boot/spring-boot-test@3.0.3</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">test</property>
+            </properties>
+        </component>
+        <component bom-ref="32-org.springframework.boot:spring-boot@3.0.3" type="library">
+            <group>org.springframework.boot</group>
+            <name>org.springframework.boot:spring-boot</name>
+            <version>3.0.3</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.springframework.boot/spring-boot@3.0.3</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">test</property>
+            </properties>
+        </component>
+        <component bom-ref="33-org.springframework.boot:spring-boot-starter@3.0.3" type="library">
+            <group>org.springframework.boot</group>
+            <name>org.springframework.boot:spring-boot-starter</name>
+            <version>3.0.3</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.springframework.boot/spring-boot-starter@3.0.3</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">test</property>
+            </properties>
+        </component>
+        <component bom-ref="34-org.springframework.boot:spring-boot-starter-log4j2@3.0.3" type="library">
+            <group>org.springframework.boot</group>
+            <name>org.springframework.boot:spring-boot-starter-log4j2</name>
+            <version>3.0.3</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.springframework.boot/spring-boot-starter-log4j2@3.0.3</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="35-org.apache.logging.log4j:log4j-jul@2.19.0" type="library">
+            <group>org.apache.logging.log4j</group>
+            <name>org.apache.logging.log4j:log4j-jul</name>
+            <version>2.19.0</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.apache.logging.log4j/log4j-jul@2.19.0</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="36-org.apache.logging.log4j:log4j-api@2.19.0" type="library">
+            <group>org.apache.logging.log4j</group>
+            <name>org.apache.logging.log4j:log4j-api</name>
+            <version>2.19.0</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.apache.logging.log4j/log4j-api@2.19.0</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="37-org.apache.logging.log4j:log4j-core@2.19.0" type="library">
+            <group>org.apache.logging.log4j</group>
+            <name>org.apache.logging.log4j:log4j-core</name>
+            <version>2.19.0</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.apache.logging.log4j/log4j-core@2.19.0</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="38-org.apache.logging.log4j:log4j-slf4j2-impl@2.19.0" type="library">
+            <group>org.apache.logging.log4j</group>
+            <name>org.apache.logging.log4j:log4j-slf4j2-impl</name>
+            <version>2.19.0</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.apache.logging.log4j/log4j-slf4j2-impl@2.19.0</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="39-org.slf4j:slf4j-api@2.0.6" type="library">
+            <group>org.slf4j</group>
+            <name>org.slf4j:slf4j-api</name>
+            <version>2.0.6</version>
+            <licenses>
+                <expression>MIT</expression>
+            </licenses>
+            <purl>pkg:maven/org.slf4j/slf4j-api@2.0.6</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="40-org.springframework.boot:spring-boot-starter-validation@3.0.3" type="library">
+            <group>org.springframework.boot</group>
+            <name>org.springframework.boot:spring-boot-starter-validation</name>
+            <version>3.0.3</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.springframework.boot/spring-boot-starter-validation@3.0.3</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="41-org.hibernate.validator:hibernate-validator@8.0.0.Final" type="library">
+            <group>org.hibernate.validator</group>
+            <name>org.hibernate.validator:hibernate-validator</name>
+            <version>8.0.0.Final</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.hibernate.validator/hibernate-validator@8.0.0.Final</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="42-com.fasterxml:classmate@1.5.1" type="library">
+            <group>com.fasterxml</group>
+            <name>com.fasterxml:classmate</name>
+            <version>1.5.1</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/com.fasterxml/classmate@1.5.1</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="43-org.jboss.logging:jboss-logging@3.5.0.Final" type="library">
+            <group>org.jboss.logging</group>
+            <name>org.jboss.logging:jboss-logging</name>
+            <version>3.5.0.Final</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.jboss.logging/jboss-logging@3.5.0.Final</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="44-jakarta.validation:jakarta.validation-api@3.0.2" type="library">
+            <group>jakarta.validation</group>
+            <name>jakarta.validation:jakarta.validation-api</name>
+            <version>3.0.2</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/jakarta.validation/jakarta.validation-api@3.0.2</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="45-org.apache.tomcat.embed:tomcat-embed-el@10.1.5" type="library">
+            <group>org.apache.tomcat.embed</group>
+            <name>org.apache.tomcat.embed:tomcat-embed-el</name>
+            <version>10.1.5</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@10.1.5</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="46-org.springframework.boot:spring-boot-starter@3.0.3" type="library">
+            <group>org.springframework.boot</group>
+            <name>org.springframework.boot:spring-boot-starter</name>
+            <version>3.0.3</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.springframework.boot/spring-boot-starter@3.0.3</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="47-org.yaml:snakeyaml@1.33" type="library">
+            <group>org.yaml</group>
+            <name>org.yaml:snakeyaml</name>
+            <version>1.33</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.yaml/snakeyaml@1.33</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="48-jakarta.annotation:jakarta.annotation-api@2.1.1" type="library">
+            <group>jakarta.annotation</group>
+            <name>jakarta.annotation:jakarta.annotation-api</name>
+            <version>2.1.1</version>
+            <licenses>
+                <expression>(EPL-2.0 OR GPL-2.0-with-classpath-exception)</expression>
+            </licenses>
+            <purl>pkg:maven/jakarta.annotation/jakarta.annotation-api@2.1.1</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="49-org.springframework.boot:spring-boot-starter-logging@3.0.3" type="library">
+            <group>org.springframework.boot</group>
+            <name>org.springframework.boot:spring-boot-starter-logging</name>
+            <version>3.0.3</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.springframework.boot/spring-boot-starter-logging@3.0.3</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="50-org.slf4j:jul-to-slf4j@2.0.6" type="library">
+            <group>org.slf4j</group>
+            <name>org.slf4j:jul-to-slf4j</name>
+            <version>2.0.6</version>
+            <licenses>
+                <expression>MIT</expression>
+            </licenses>
+            <purl>pkg:maven/org.slf4j/jul-to-slf4j@2.0.6</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="51-org.apache.logging.log4j:log4j-to-slf4j@2.19.0" type="library">
+            <group>org.apache.logging.log4j</group>
+            <name>org.apache.logging.log4j:log4j-to-slf4j</name>
+            <version>2.19.0</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.apache.logging.log4j/log4j-to-slf4j@2.19.0</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="52-ch.qos.logback:logback-classic@1.3.0" type="library">
+            <group>ch.qos.logback</group>
+            <name>ch.qos.logback:logback-classic</name>
+            <version>1.3.0</version>
+            <licenses>
+                <expression>(EPL-1.0 OR LGPL-2.1)</expression>
+            </licenses>
+            <purl>pkg:maven/ch.qos.logback/logback-classic@1.3.0</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="53-ch.qos.logback:logback-core@1.3.0" type="library">
+            <group>ch.qos.logback</group>
+            <name>ch.qos.logback:logback-core</name>
+            <version>1.3.0</version>
+            <licenses>
+                <expression>(EPL-1.0 OR LGPL-2.1)</expression>
+            </licenses>
+            <purl>pkg:maven/ch.qos.logback/logback-core@1.3.0</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="54-org.springframework.boot:spring-boot-autoconfigure@3.0.3" type="library">
+            <group>org.springframework.boot</group>
+            <name>org.springframework.boot:spring-boot-autoconfigure</name>
+            <version>3.0.3</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.springframework.boot/spring-boot-autoconfigure@3.0.3</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="55-org.springframework.boot:spring-boot@3.0.3" type="library">
+            <group>org.springframework.boot</group>
+            <name>org.springframework.boot:spring-boot</name>
+            <version>3.0.3</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.springframework.boot/spring-boot@3.0.3</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="56-org.springframework:spring-context@6.0.5" type="library">
+            <group>org.springframework</group>
+            <name>org.springframework:spring-context</name>
+            <version>6.0.5</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.springframework/spring-context@6.0.5</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="57-org.springframework:spring-expression@6.0.5" type="library">
+            <group>org.springframework</group>
+            <name>org.springframework:spring-expression</name>
+            <version>6.0.5</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.springframework/spring-expression@6.0.5</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="58-org.springframework:spring-beans@6.0.5" type="library">
+            <group>org.springframework</group>
+            <name>org.springframework:spring-beans</name>
+            <version>6.0.5</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.springframework/spring-beans@6.0.5</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="59-org.springframework:spring-aop@6.0.5" type="library">
+            <group>org.springframework</group>
+            <name>org.springframework:spring-aop</name>
+            <version>6.0.5</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.springframework/spring-aop@6.0.5</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="60-org.springframework.boot:spring-boot-starter-data-jpa@3.0.3" type="library">
+            <group>org.springframework.boot</group>
+            <name>org.springframework.boot:spring-boot-starter-data-jpa</name>
+            <version>3.0.3</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.springframework.boot/spring-boot-starter-data-jpa@3.0.3</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="61-org.springframework:spring-aspects@6.0.5" type="library">
+            <group>org.springframework</group>
+            <name>org.springframework:spring-aspects</name>
+            <version>6.0.5</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.springframework/spring-aspects@6.0.5</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="62-org.aspectj:aspectjweaver@1.9.19" type="library">
+            <group>org.aspectj</group>
+            <name>org.aspectj:aspectjweaver</name>
+            <version>1.9.19</version>
+            <licenses>
+                <expression>EPL-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.aspectj/aspectjweaver@1.9.19</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="63-org.springframework.data:spring-data-jpa@3.0.2" type="library">
+            <group>org.springframework.data</group>
+            <name>org.springframework.data:spring-data-jpa</name>
+            <version>3.0.2</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.springframework.data/spring-data-jpa@3.0.2</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="64-org.springframework:spring-tx@6.0.5" type="library">
+            <group>org.springframework</group>
+            <name>org.springframework:spring-tx</name>
+            <version>6.0.5</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.springframework/spring-tx@6.0.5</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="65-org.springframework:spring-orm@6.0.5" type="library">
+            <group>org.springframework</group>
+            <name>org.springframework:spring-orm</name>
+            <version>6.0.5</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.springframework/spring-orm@6.0.5</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="66-org.springframework:spring-jdbc@6.0.5" type="library">
+            <group>org.springframework</group>
+            <name>org.springframework:spring-jdbc</name>
+            <version>6.0.5</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.springframework/spring-jdbc@6.0.5</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="67-org.springframework.data:spring-data-commons@3.0.2" type="library">
+            <group>org.springframework.data</group>
+            <name>org.springframework.data:spring-data-commons</name>
+            <version>3.0.2</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.springframework.data/spring-data-commons@3.0.2</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="68-org.hibernate.orm:hibernate-core@6.1.7.Final" type="library">
+            <group>org.hibernate.orm</group>
+            <name>org.hibernate.orm:hibernate-core</name>
+            <version>6.1.7.Final</version>
+            <licenses>
+                <expression>LGPL-2.1</expression>
+            </licenses>
+            <purl>pkg:maven/org.hibernate.orm/hibernate-core@6.1.7.Final</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="69-org.antlr:antlr4-runtime@4.10.1" type="library">
+            <group>org.antlr</group>
+            <name>org.antlr:antlr4-runtime</name>
+            <version>4.10.1</version>
+            <licenses>
+                <expression>BSD-3-Clause</expression>
+            </licenses>
+            <purl>pkg:maven/org.antlr/antlr4-runtime@4.10.1</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">runtime</property>
+            </properties>
+        </component>
+        <component bom-ref="70-jakarta.inject:jakarta.inject-api@2.0.0" type="library">
+            <group>jakarta.inject</group>
+            <name>jakarta.inject:jakarta.inject-api</name>
+            <version>2.0.0</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/jakarta.inject/jakarta.inject-api@2.0.0</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">runtime</property>
+            </properties>
+        </component>
+        <component bom-ref="71-org.glassfish.jaxb:jaxb-runtime@4.0.2" type="library">
+            <group>org.glassfish.jaxb</group>
+            <name>org.glassfish.jaxb:jaxb-runtime</name>
+            <version>4.0.2</version>
+            <licenses>
+                <expression>EDL-1.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.glassfish.jaxb/jaxb-runtime@4.0.2</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">runtime</property>
+            </properties>
+        </component>
+        <component bom-ref="72-org.glassfish.jaxb:jaxb-core@4.0.2" type="library">
+            <group>org.glassfish.jaxb</group>
+            <name>org.glassfish.jaxb:jaxb-core</name>
+            <version>4.0.2</version>
+            <licenses>
+                <expression>EDL-1.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.glassfish.jaxb/jaxb-core@4.0.2</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">runtime</property>
+            </properties>
+        </component>
+        <component bom-ref="73-com.sun.istack:istack-commons-runtime@4.1.1" type="library">
+            <group>com.sun.istack</group>
+            <name>com.sun.istack:istack-commons-runtime</name>
+            <version>4.1.1</version>
+            <licenses>
+                <expression>EDL-1.0</expression>
+            </licenses>
+            <purl>pkg:maven/com.sun.istack/istack-commons-runtime@4.1.1</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">runtime</property>
+            </properties>
+        </component>
+        <component bom-ref="74-org.glassfish.jaxb:txw2@4.0.2" type="library">
+            <group>org.glassfish.jaxb</group>
+            <name>org.glassfish.jaxb:txw2</name>
+            <version>4.0.2</version>
+            <licenses>
+                <expression>EDL-1.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.glassfish.jaxb/txw2@4.0.2</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">runtime</property>
+            </properties>
+        </component>
+        <component bom-ref="75-org.eclipse.angus:angus-activation@2.0.0" type="library">
+            <group>org.eclipse.angus</group>
+            <name>org.eclipse.angus:angus-activation</name>
+            <version>2.0.0</version>
+            <licenses>
+                <expression>EDL-1.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.eclipse.angus/angus-activation@2.0.0</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">runtime</property>
+            </properties>
+        </component>
+        <component bom-ref="76-jakarta.activation:jakarta.activation-api@2.1.1" type="library">
+            <group>jakarta.activation</group>
+            <name>jakarta.activation:jakarta.activation-api</name>
+            <version>2.1.1</version>
+            <licenses>
+                <expression>EDL-1.0</expression>
+            </licenses>
+            <purl>pkg:maven/jakarta.activation/jakarta.activation-api@2.1.1</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">runtime</property>
+            </properties>
+        </component>
+        <component bom-ref="77-jakarta.xml.bind:jakarta.xml.bind-api@4.0.0" type="library">
+            <group>jakarta.xml.bind</group>
+            <name>jakarta.xml.bind:jakarta.xml.bind-api</name>
+            <version>4.0.0</version>
+            <licenses>
+                <expression>EDL-1.0</expression>
+            </licenses>
+            <purl>pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.0</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">runtime</property>
+            </properties>
+        </component>
+        <component bom-ref="78-net.bytebuddy:byte-buddy@1.12.23" type="library">
+            <group>net.bytebuddy</group>
+            <name>net.bytebuddy:byte-buddy</name>
+            <version>1.12.23</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/net.bytebuddy/byte-buddy@1.12.23</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">runtime</property>
+            </properties>
+        </component>
+        <component bom-ref="79-org.jboss:jandex@2.4.2.Final" type="library">
+            <group>org.jboss</group>
+            <name>org.jboss:jandex</name>
+            <version>2.4.2.Final</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.jboss/jandex@2.4.2.Final</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">runtime</property>
+            </properties>
+        </component>
+        <component bom-ref="80-org.hibernate.common:hibernate-commons-annotations@6.0.6.Final" type="library">
+            <group>org.hibernate.common</group>
+            <name>org.hibernate.common:hibernate-commons-annotations</name>
+            <version>6.0.6.Final</version>
+            <licenses>
+                <expression>LGPL-2.1</expression>
+            </licenses>
+            <purl>pkg:maven/org.hibernate.common/hibernate-commons-annotations@6.0.6.Final</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">runtime</property>
+            </properties>
+        </component>
+        <component bom-ref="81-jakarta.transaction:jakarta.transaction-api@2.0.1" type="library">
+            <group>jakarta.transaction</group>
+            <name>jakarta.transaction:jakarta.transaction-api</name>
+            <version>2.0.1</version>
+            <licenses>
+                <expression>(EPL-2.0 OR GPL-2.0-with-classpath-exception)</expression>
+            </licenses>
+            <purl>pkg:maven/jakarta.transaction/jakarta.transaction-api@2.0.1</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="82-jakarta.persistence:jakarta.persistence-api@3.1.0" type="library">
+            <group>jakarta.persistence</group>
+            <name>jakarta.persistence:jakarta.persistence-api</name>
+            <version>3.1.0</version>
+            <licenses>
+                <expression>(EDL-1.0 OR EPL-2.0)</expression>
+            </licenses>
+            <purl>pkg:maven/jakarta.persistence/jakarta.persistence-api@3.1.0</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="83-org.springframework.boot:spring-boot-starter-jdbc@3.0.3" type="library">
+            <group>org.springframework.boot</group>
+            <name>org.springframework.boot:spring-boot-starter-jdbc</name>
+            <version>3.0.3</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.springframework.boot/spring-boot-starter-jdbc@3.0.3</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="84-com.zaxxer:HikariCP@5.0.1" type="library">
+            <group>com.zaxxer</group>
+            <name>com.zaxxer:HikariCP</name>
+            <version>5.0.1</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/com.zaxxer/HikariCP@5.0.1</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="85-org.springframework.boot:spring-boot-starter-aop@3.0.3" type="library">
+            <group>org.springframework.boot</group>
+            <name>org.springframework.boot:spring-boot-starter-aop</name>
+            <version>3.0.3</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.springframework.boot/spring-boot-starter-aop@3.0.3</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="86-com.h2database:h2@2.1.214" type="library">
+            <group>com.h2database</group>
+            <name>com.h2database:h2</name>
+            <version>2.1.214</version>
+            <licenses>
+                <expression>(EPL-1.0 OR MPL-2.0)</expression>
+            </licenses>
+            <purl>pkg:maven/com.h2database/h2@2.1.214</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">runtime</property>
+            </properties>
+        </component>
+        <component bom-ref="87-org.springdoc:springdoc-openapi-starter-webmvc-ui@2.0.0" type="library">
+            <group>org.springdoc</group>
+            <name>org.springdoc:springdoc-openapi-starter-webmvc-ui</name>
+            <version>2.0.0</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.springdoc/springdoc-openapi-starter-webmvc-ui@2.0.0</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="88-io.github.classgraph:classgraph@4.8.149" type="library">
+            <group>io.github.classgraph</group>
+            <name>io.github.classgraph:classgraph</name>
+            <version>4.8.149</version>
+            <licenses>
+                <expression>MIT</expression>
+            </licenses>
+            <purl>pkg:maven/io.github.classgraph/classgraph@4.8.149</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="89-org.webjars:webjars-locator-core@0.52" type="library">
+            <group>org.webjars</group>
+            <name>org.webjars:webjars-locator-core</name>
+            <version>0.52</version>
+            <licenses>
+                <expression>MIT</expression>
+            </licenses>
+            <purl>pkg:maven/org.webjars/webjars-locator-core@0.52</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="90-org.webjars:swagger-ui@4.15.5" type="library">
+            <group>org.webjars</group>
+            <name>org.webjars:swagger-ui</name>
+            <version>4.15.5</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.webjars/swagger-ui@4.15.5</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="91-org.springdoc:springdoc-openapi-starter-webmvc-api@2.0.0" type="library">
+            <group>org.springdoc</group>
+            <name>org.springdoc:springdoc-openapi-starter-webmvc-api</name>
+            <version>2.0.0</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.springdoc/springdoc-openapi-starter-webmvc-api@2.0.0</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="92-org.springframework:spring-webmvc@6.0.5" type="library">
+            <group>org.springframework</group>
+            <name>org.springframework:spring-webmvc</name>
+            <version>6.0.5</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.springframework/spring-webmvc@6.0.5</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="93-org.springframework:spring-web@6.0.5" type="library">
+            <group>org.springframework</group>
+            <name>org.springframework:spring-web</name>
+            <version>6.0.5</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.springframework/spring-web@6.0.5</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="94-io.micrometer:micrometer-observation@1.10.4" type="library">
+            <group>io.micrometer</group>
+            <name>io.micrometer:micrometer-observation</name>
+            <version>1.10.4</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/io.micrometer/micrometer-observation@1.10.4</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="95-io.micrometer:micrometer-commons@1.10.4" type="library">
+            <group>io.micrometer</group>
+            <name>io.micrometer:micrometer-commons</name>
+            <version>1.10.4</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/io.micrometer/micrometer-commons@1.10.4</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="96-org.springdoc:springdoc-openapi-starter-common@2.0.0" type="library">
+            <group>org.springdoc</group>
+            <name>org.springdoc:springdoc-openapi-starter-common</name>
+            <version>2.0.0</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.springdoc/springdoc-openapi-starter-common@2.0.0</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="97-io.swagger.core.v3:swagger-core-jakarta@2.2.7" type="library">
+            <group>io.swagger.core.v3</group>
+            <name>io.swagger.core.v3:swagger-core-jakarta</name>
+            <version>2.2.7</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/io.swagger.core.v3/swagger-core-jakarta@2.2.7</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="98-com.fasterxml.jackson.datatype:jackson-datatype-jsr310@2.14.2" type="library">
+            <group>com.fasterxml.jackson.datatype</group>
+            <name>com.fasterxml.jackson.datatype:jackson-datatype-jsr310</name>
+            <version>2.14.2</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.14.2</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="99-com.fasterxml.jackson.core:jackson-databind@2.14.2" type="library">
+            <group>com.fasterxml.jackson.core</group>
+            <name>com.fasterxml.jackson.core:jackson-databind</name>
+            <version>2.14.2</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.14.2</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="100-com.fasterxml.jackson.core:jackson-core@2.14.2" type="library">
+            <group>com.fasterxml.jackson.core</group>
+            <name>com.fasterxml.jackson.core:jackson-core</name>
+            <version>2.14.2</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="101-com.fasterxml.jackson.core:jackson-annotations@2.14.2" type="library">
+            <group>com.fasterxml.jackson.core</group>
+            <name>com.fasterxml.jackson.core:jackson-annotations</name>
+            <version>2.14.2</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.14.2</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="102-com.fasterxml.jackson.dataformat:jackson-dataformat-yaml@2.14.2" type="library">
+            <group>com.fasterxml.jackson.dataformat</group>
+            <name>com.fasterxml.jackson.dataformat:jackson-dataformat-yaml</name>
+            <version>2.14.2</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml@2.14.2</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="103-io.swagger.core.v3:swagger-models-jakarta@2.2.7" type="library">
+            <group>io.swagger.core.v3</group>
+            <name>io.swagger.core.v3:swagger-models-jakarta</name>
+            <version>2.2.7</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/io.swagger.core.v3/swagger-models-jakarta@2.2.7</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="104-io.swagger.core.v3:swagger-annotations-jakarta@2.2.7" type="library">
+            <group>io.swagger.core.v3</group>
+            <name>io.swagger.core.v3:swagger-annotations-jakarta</name>
+            <version>2.2.7</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/io.swagger.core.v3/swagger-annotations-jakarta@2.2.7</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="105-org.apache.commons:commons-lang3@3.12.0" type="library">
+            <group>org.apache.commons</group>
+            <name>org.apache.commons:commons-lang3</name>
+            <version>3.12.0</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.apache.commons/commons-lang3@3.12.0</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">compile</property>
+            </properties>
+        </component>
+        <component bom-ref="106-org.junit.jupiter:junit-jupiter@5.7.2" type="library">
+            <group>org.junit.jupiter</group>
+            <name>org.junit.jupiter:junit-jupiter</name>
+            <version>5.7.2</version>
+            <licenses>
+                <expression>EPL-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.junit.jupiter/junit-jupiter@5.7.2</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">import</property>
+            </properties>
+        </component>
+        <component bom-ref="107-org.junit.jupiter:junit-jupiter-engine@5.9.2" type="library">
+            <group>org.junit.jupiter</group>
+            <name>org.junit.jupiter:junit-jupiter-engine</name>
+            <version>5.9.2</version>
+            <licenses>
+                <expression>EPL-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.9.2</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">runtime</property>
+            </properties>
+        </component>
+        <component bom-ref="108-org.apiguardian:apiguardian-api@1.1.2" type="library">
+            <group>org.apiguardian</group>
+            <name>org.apiguardian:apiguardian-api</name>
+            <version>1.1.2</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.apiguardian/apiguardian-api@1.1.2</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">runtime</property>
+            </properties>
+        </component>
+        <component bom-ref="109-org.junit.jupiter:junit-jupiter-api@5.9.2" type="library">
+            <group>org.junit.jupiter</group>
+            <name>org.junit.jupiter:junit-jupiter-api</name>
+            <version>5.9.2</version>
+            <licenses>
+                <expression>EPL-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.junit.jupiter/junit-jupiter-api@5.9.2</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">runtime</property>
+            </properties>
+        </component>
+        <component bom-ref="110-org.junit.platform:junit-platform-commons@1.9.2" type="library">
+            <group>org.junit.platform</group>
+            <name>org.junit.platform:junit-platform-commons</name>
+            <version>1.9.2</version>
+            <licenses>
+                <expression>EPL-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.junit.platform/junit-platform-commons@1.9.2</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">runtime</property>
+            </properties>
+        </component>
+        <component bom-ref="111-org.opentest4j:opentest4j@1.2.0" type="library">
+            <group>org.opentest4j</group>
+            <name>org.opentest4j:opentest4j</name>
+            <version>1.2.0</version>
+            <licenses>
+                <expression>Apache-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.opentest4j/opentest4j@1.2.0</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">runtime</property>
+            </properties>
+        </component>
+        <component bom-ref="112-org.junit.platform:junit-platform-engine@1.9.2" type="library">
+            <group>org.junit.platform</group>
+            <name>org.junit.platform:junit-platform-engine</name>
+            <version>1.9.2</version>
+            <licenses>
+                <expression>EPL-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.junit.platform/junit-platform-engine@1.9.2</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">runtime</property>
+            </properties>
+        </component>
+        <component bom-ref="113-org.junit.jupiter:junit-jupiter-params@5.9.2" type="library">
+            <group>org.junit.jupiter</group>
+            <name>org.junit.jupiter:junit-jupiter-params</name>
+            <version>5.9.2</version>
+            <licenses>
+                <expression>EPL-2.0</expression>
+            </licenses>
+            <purl>pkg:maven/org.junit.jupiter/junit-jupiter-params@5.9.2</purl>
+            <properties>
+                <property name="snyk:maven:build_scope">runtime</property>
+            </properties>
+        </component>
+    </components>
+    <dependencies>
+        <dependency ref="1-com.demo:Demo@1.0.0-SNAPSHOT">
+            <dependency ref="2-org.springframework.boot:spring-boot-starter-test@3.0.3"></dependency>
+            <dependency ref="34-org.springframework.boot:spring-boot-starter-log4j2@3.0.3"></dependency>
+            <dependency ref="40-org.springframework.boot:spring-boot-starter-validation@3.0.3"></dependency>
+            <dependency ref="60-org.springframework.boot:spring-boot-starter-data-jpa@3.0.3"></dependency>
+            <dependency ref="86-com.h2database:h2@2.1.214"></dependency>
+            <dependency ref="87-org.springdoc:springdoc-openapi-starter-webmvc-ui@2.0.0"></dependency>
+            <dependency ref="106-org.junit.jupiter:junit-jupiter@5.7.2"></dependency>
+        </dependency>
+        <dependency ref="2-org.springframework.boot:spring-boot-starter-test@3.0.3">
+            <dependency ref="3-org.xmlunit:xmlunit-core@2.9.1"></dependency>
+            <dependency ref="5-org.springframework:spring-test@6.0.5"></dependency>
+            <dependency ref="7-org.springframework:spring-core@6.0.5"></dependency>
+            <dependency ref="9-org.skyscreamer:jsonassert@1.5.1"></dependency>
+            <dependency ref="11-org.mockito:mockito-junit-jupiter@4.8.1"></dependency>
+            <dependency ref="13-org.mockito:mockito-core@4.8.1"></dependency>
+            <dependency ref="17-org.junit.jupiter:junit-jupiter@5.9.2"></dependency>
+            <dependency ref="20-org.hamcrest:hamcrest@2.2"></dependency>
+            <dependency ref="21-org.assertj:assertj-core@3.23.1"></dependency>
+            <dependency ref="22-jakarta.xml.bind:jakarta.xml.bind-api@4.0.0"></dependency>
+            <dependency ref="24-com.jayway.jsonpath:json-path@2.7.0"></dependency>
+            <dependency ref="29-org.springframework.boot:spring-boot-test-autoconfigure@3.0.3"></dependency>
+            <dependency ref="31-org.springframework.boot:spring-boot-test@3.0.3"></dependency>
+            <dependency ref="33-org.springframework.boot:spring-boot-starter@3.0.3"></dependency>
+        </dependency>
+        <dependency ref="3-org.xmlunit:xmlunit-core@2.9.1">
+            <dependency ref="4-jakarta.xml.bind:jakarta.xml.bind-api@4.0.0"></dependency>
+        </dependency>
+        <dependency ref="4-jakarta.xml.bind:jakarta.xml.bind-api@4.0.0"></dependency>
+        <dependency ref="5-org.springframework:spring-test@6.0.5">
+            <dependency ref="6-org.springframework:spring-core@6.0.5"></dependency>
+        </dependency>
+        <dependency ref="6-org.springframework:spring-core@6.0.5"></dependency>
+        <dependency ref="7-org.springframework:spring-core@6.0.5">
+            <dependency ref="8-org.springframework:spring-jcl@6.0.5"></dependency>
+        </dependency>
+        <dependency ref="8-org.springframework:spring-jcl@6.0.5"></dependency>
+        <dependency ref="9-org.skyscreamer:jsonassert@1.5.1">
+            <dependency ref="10-com.vaadin.external.google:android-json@0.0.20131108.vaadin1"></dependency>
+        </dependency>
+        <dependency ref="10-com.vaadin.external.google:android-json@0.0.20131108.vaadin1"></dependency>
+        <dependency ref="11-org.mockito:mockito-junit-jupiter@4.8.1">
+            <dependency ref="12-org.junit.jupiter:junit-jupiter-api@5.9.2"></dependency>
+            <dependency ref="13-org.mockito:mockito-core@4.8.1"></dependency>
+        </dependency>
+        <dependency ref="12-org.junit.jupiter:junit-jupiter-api@5.9.2"></dependency>
+        <dependency ref="13-org.mockito:mockito-core@4.8.1">
+            <dependency ref="14-org.objenesis:objenesis@3.2"></dependency>
+            <dependency ref="15-net.bytebuddy:byte-buddy-agent@1.12.23"></dependency>
+            <dependency ref="16-net.bytebuddy:byte-buddy@1.12.23"></dependency>
+        </dependency>
+        <dependency ref="14-org.objenesis:objenesis@3.2"></dependency>
+        <dependency ref="15-net.bytebuddy:byte-buddy-agent@1.12.23"></dependency>
+        <dependency ref="16-net.bytebuddy:byte-buddy@1.12.23"></dependency>
+        <dependency ref="17-org.junit.jupiter:junit-jupiter@5.9.2">
+            <dependency ref="18-org.junit.jupiter:junit-jupiter-engine@5.9.2"></dependency>
+            <dependency ref="19-org.junit.jupiter:junit-jupiter-params@5.9.2"></dependency>
+            <dependency ref="12-org.junit.jupiter:junit-jupiter-api@5.9.2"></dependency>
+        </dependency>
+        <dependency ref="18-org.junit.jupiter:junit-jupiter-engine@5.9.2"></dependency>
+        <dependency ref="19-org.junit.jupiter:junit-jupiter-params@5.9.2"></dependency>
+        <dependency ref="20-org.hamcrest:hamcrest@2.2"></dependency>
+        <dependency ref="21-org.assertj:assertj-core@3.23.1">
+            <dependency ref="16-net.bytebuddy:byte-buddy@1.12.23"></dependency>
+        </dependency>
+        <dependency ref="22-jakarta.xml.bind:jakarta.xml.bind-api@4.0.0">
+            <dependency ref="23-jakarta.activation:jakarta.activation-api@2.1.1"></dependency>
+        </dependency>
+        <dependency ref="23-jakarta.activation:jakarta.activation-api@2.1.1"></dependency>
+        <dependency ref="24-com.jayway.jsonpath:json-path@2.7.0">
+            <dependency ref="25-org.slf4j:slf4j-api@2.0.6"></dependency>
+            <dependency ref="26-net.minidev:json-smart@2.4.8"></dependency>
+        </dependency>
+        <dependency ref="25-org.slf4j:slf4j-api@2.0.6"></dependency>
+        <dependency ref="26-net.minidev:json-smart@2.4.8">
+            <dependency ref="27-net.minidev:accessors-smart@2.4.8"></dependency>
+        </dependency>
+        <dependency ref="27-net.minidev:accessors-smart@2.4.8">
+            <dependency ref="28-org.ow2.asm:asm@9.1"></dependency>
+        </dependency>
+        <dependency ref="28-org.ow2.asm:asm@9.1"></dependency>
+        <dependency ref="29-org.springframework.boot:spring-boot-test-autoconfigure@3.0.3">
+            <dependency ref="30-org.springframework.boot:spring-boot-autoconfigure@3.0.3"></dependency>
+            <dependency ref="31-org.springframework.boot:spring-boot-test@3.0.3"></dependency>
+            <dependency ref="32-org.springframework.boot:spring-boot@3.0.3"></dependency>
+        </dependency>
+        <dependency ref="30-org.springframework.boot:spring-boot-autoconfigure@3.0.3"></dependency>
+        <dependency ref="31-org.springframework.boot:spring-boot-test@3.0.3">
+            <dependency ref="32-org.springframework.boot:spring-boot@3.0.3"></dependency>
+        </dependency>
+        <dependency ref="32-org.springframework.boot:spring-boot@3.0.3"></dependency>
+        <dependency ref="33-org.springframework.boot:spring-boot-starter@3.0.3"></dependency>
+        <dependency ref="34-org.springframework.boot:spring-boot-starter-log4j2@3.0.3">
+            <dependency ref="35-org.apache.logging.log4j:log4j-jul@2.19.0"></dependency>
+            <dependency ref="37-org.apache.logging.log4j:log4j-core@2.19.0"></dependency>
+            <dependency ref="38-org.apache.logging.log4j:log4j-slf4j2-impl@2.19.0"></dependency>
+        </dependency>
+        <dependency ref="35-org.apache.logging.log4j:log4j-jul@2.19.0">
+            <dependency ref="36-org.apache.logging.log4j:log4j-api@2.19.0"></dependency>
+        </dependency>
+        <dependency ref="36-org.apache.logging.log4j:log4j-api@2.19.0"></dependency>
+        <dependency ref="37-org.apache.logging.log4j:log4j-core@2.19.0">
+            <dependency ref="36-org.apache.logging.log4j:log4j-api@2.19.0"></dependency>
+        </dependency>
+        <dependency ref="38-org.apache.logging.log4j:log4j-slf4j2-impl@2.19.0">
+            <dependency ref="36-org.apache.logging.log4j:log4j-api@2.19.0"></dependency>
+            <dependency ref="39-org.slf4j:slf4j-api@2.0.6"></dependency>
+        </dependency>
+        <dependency ref="39-org.slf4j:slf4j-api@2.0.6"></dependency>
+        <dependency ref="40-org.springframework.boot:spring-boot-starter-validation@3.0.3">
+            <dependency ref="41-org.hibernate.validator:hibernate-validator@8.0.0.Final"></dependency>
+            <dependency ref="45-org.apache.tomcat.embed:tomcat-embed-el@10.1.5"></dependency>
+            <dependency ref="46-org.springframework.boot:spring-boot-starter@3.0.3"></dependency>
+        </dependency>
+        <dependency ref="41-org.hibernate.validator:hibernate-validator@8.0.0.Final">
+            <dependency ref="42-com.fasterxml:classmate@1.5.1"></dependency>
+            <dependency ref="43-org.jboss.logging:jboss-logging@3.5.0.Final"></dependency>
+            <dependency ref="44-jakarta.validation:jakarta.validation-api@3.0.2"></dependency>
+        </dependency>
+        <dependency ref="42-com.fasterxml:classmate@1.5.1"></dependency>
+        <dependency ref="43-org.jboss.logging:jboss-logging@3.5.0.Final"></dependency>
+        <dependency ref="44-jakarta.validation:jakarta.validation-api@3.0.2"></dependency>
+        <dependency ref="45-org.apache.tomcat.embed:tomcat-embed-el@10.1.5"></dependency>
+        <dependency ref="46-org.springframework.boot:spring-boot-starter@3.0.3">
+            <dependency ref="47-org.yaml:snakeyaml@1.33"></dependency>
+            <dependency ref="7-org.springframework:spring-core@6.0.5"></dependency>
+            <dependency ref="48-jakarta.annotation:jakarta.annotation-api@2.1.1"></dependency>
+            <dependency ref="49-org.springframework.boot:spring-boot-starter-logging@3.0.3"></dependency>
+            <dependency ref="54-org.springframework.boot:spring-boot-autoconfigure@3.0.3"></dependency>
+            <dependency ref="55-org.springframework.boot:spring-boot@3.0.3"></dependency>
+        </dependency>
+        <dependency ref="47-org.yaml:snakeyaml@1.33"></dependency>
+        <dependency ref="48-jakarta.annotation:jakarta.annotation-api@2.1.1"></dependency>
+        <dependency ref="49-org.springframework.boot:spring-boot-starter-logging@3.0.3">
+            <dependency ref="50-org.slf4j:jul-to-slf4j@2.0.6"></dependency>
+            <dependency ref="51-org.apache.logging.log4j:log4j-to-slf4j@2.19.0"></dependency>
+            <dependency ref="52-ch.qos.logback:logback-classic@1.3.0"></dependency>
+        </dependency>
+        <dependency ref="50-org.slf4j:jul-to-slf4j@2.0.6">
+            <dependency ref="39-org.slf4j:slf4j-api@2.0.6"></dependency>
+        </dependency>
+        <dependency ref="51-org.apache.logging.log4j:log4j-to-slf4j@2.19.0">
+            <dependency ref="36-org.apache.logging.log4j:log4j-api@2.19.0"></dependency>
+            <dependency ref="39-org.slf4j:slf4j-api@2.0.6"></dependency>
+        </dependency>
+        <dependency ref="52-ch.qos.logback:logback-classic@1.3.0">
+            <dependency ref="39-org.slf4j:slf4j-api@2.0.6"></dependency>
+            <dependency ref="53-ch.qos.logback:logback-core@1.3.0"></dependency>
+        </dependency>
+        <dependency ref="53-ch.qos.logback:logback-core@1.3.0"></dependency>
+        <dependency ref="54-org.springframework.boot:spring-boot-autoconfigure@3.0.3">
+            <dependency ref="55-org.springframework.boot:spring-boot@3.0.3"></dependency>
+        </dependency>
+        <dependency ref="55-org.springframework.boot:spring-boot@3.0.3">
+            <dependency ref="56-org.springframework:spring-context@6.0.5"></dependency>
+            <dependency ref="7-org.springframework:spring-core@6.0.5"></dependency>
+        </dependency>
+        <dependency ref="56-org.springframework:spring-context@6.0.5">
+            <dependency ref="57-org.springframework:spring-expression@6.0.5"></dependency>
+            <dependency ref="7-org.springframework:spring-core@6.0.5"></dependency>
+            <dependency ref="58-org.springframework:spring-beans@6.0.5"></dependency>
+            <dependency ref="59-org.springframework:spring-aop@6.0.5"></dependency>
+        </dependency>
+        <dependency ref="57-org.springframework:spring-expression@6.0.5">
+            <dependency ref="7-org.springframework:spring-core@6.0.5"></dependency>
+        </dependency>
+        <dependency ref="58-org.springframework:spring-beans@6.0.5">
+            <dependency ref="7-org.springframework:spring-core@6.0.5"></dependency>
+        </dependency>
+        <dependency ref="59-org.springframework:spring-aop@6.0.5">
+            <dependency ref="7-org.springframework:spring-core@6.0.5"></dependency>
+            <dependency ref="58-org.springframework:spring-beans@6.0.5"></dependency>
+        </dependency>
+        <dependency ref="60-org.springframework.boot:spring-boot-starter-data-jpa@3.0.3">
+            <dependency ref="61-org.springframework:spring-aspects@6.0.5"></dependency>
+            <dependency ref="63-org.springframework.data:spring-data-jpa@3.0.2"></dependency>
+            <dependency ref="68-org.hibernate.orm:hibernate-core@6.1.7.Final"></dependency>
+            <dependency ref="83-org.springframework.boot:spring-boot-starter-jdbc@3.0.3"></dependency>
+            <dependency ref="85-org.springframework.boot:spring-boot-starter-aop@3.0.3"></dependency>
+        </dependency>
+        <dependency ref="61-org.springframework:spring-aspects@6.0.5">
+            <dependency ref="62-org.aspectj:aspectjweaver@1.9.19"></dependency>
+        </dependency>
+        <dependency ref="62-org.aspectj:aspectjweaver@1.9.19"></dependency>
+        <dependency ref="63-org.springframework.data:spring-data-jpa@3.0.2">
+            <dependency ref="39-org.slf4j:slf4j-api@2.0.6"></dependency>
+            <dependency ref="48-jakarta.annotation:jakarta.annotation-api@2.1.1"></dependency>
+            <dependency ref="7-org.springframework:spring-core@6.0.5"></dependency>
+            <dependency ref="58-org.springframework:spring-beans@6.0.5"></dependency>
+            <dependency ref="64-org.springframework:spring-tx@6.0.5"></dependency>
+            <dependency ref="59-org.springframework:spring-aop@6.0.5"></dependency>
+            <dependency ref="56-org.springframework:spring-context@6.0.5"></dependency>
+            <dependency ref="65-org.springframework:spring-orm@6.0.5"></dependency>
+            <dependency ref="67-org.springframework.data:spring-data-commons@3.0.2"></dependency>
+        </dependency>
+        <dependency ref="64-org.springframework:spring-tx@6.0.5">
+            <dependency ref="7-org.springframework:spring-core@6.0.5"></dependency>
+            <dependency ref="58-org.springframework:spring-beans@6.0.5"></dependency>
+        </dependency>
+        <dependency ref="65-org.springframework:spring-orm@6.0.5">
+            <dependency ref="64-org.springframework:spring-tx@6.0.5"></dependency>
+            <dependency ref="66-org.springframework:spring-jdbc@6.0.5"></dependency>
+            <dependency ref="7-org.springframework:spring-core@6.0.5"></dependency>
+            <dependency ref="58-org.springframework:spring-beans@6.0.5"></dependency>
+        </dependency>
+        <dependency ref="66-org.springframework:spring-jdbc@6.0.5">
+            <dependency ref="64-org.springframework:spring-tx@6.0.5"></dependency>
+            <dependency ref="7-org.springframework:spring-core@6.0.5"></dependency>
+            <dependency ref="58-org.springframework:spring-beans@6.0.5"></dependency>
+        </dependency>
+        <dependency ref="67-org.springframework.data:spring-data-commons@3.0.2">
+            <dependency ref="39-org.slf4j:slf4j-api@2.0.6"></dependency>
+            <dependency ref="58-org.springframework:spring-beans@6.0.5"></dependency>
+            <dependency ref="7-org.springframework:spring-core@6.0.5"></dependency>
+        </dependency>
+        <dependency ref="68-org.hibernate.orm:hibernate-core@6.1.7.Final">
+            <dependency ref="69-org.antlr:antlr4-runtime@4.10.1"></dependency>
+            <dependency ref="70-jakarta.inject:jakarta.inject-api@2.0.0"></dependency>
+            <dependency ref="71-org.glassfish.jaxb:jaxb-runtime@4.0.2"></dependency>
+            <dependency ref="77-jakarta.xml.bind:jakarta.xml.bind-api@4.0.0"></dependency>
+            <dependency ref="78-net.bytebuddy:byte-buddy@1.12.23"></dependency>
+            <dependency ref="42-com.fasterxml:classmate@1.5.1"></dependency>
+            <dependency ref="79-org.jboss:jandex@2.4.2.Final"></dependency>
+            <dependency ref="80-org.hibernate.common:hibernate-commons-annotations@6.0.6.Final"></dependency>
+            <dependency ref="43-org.jboss.logging:jboss-logging@3.5.0.Final"></dependency>
+            <dependency ref="81-jakarta.transaction:jakarta.transaction-api@2.0.1"></dependency>
+            <dependency ref="82-jakarta.persistence:jakarta.persistence-api@3.1.0"></dependency>
+        </dependency>
+        <dependency ref="69-org.antlr:antlr4-runtime@4.10.1"></dependency>
+        <dependency ref="70-jakarta.inject:jakarta.inject-api@2.0.0"></dependency>
+        <dependency ref="71-org.glassfish.jaxb:jaxb-runtime@4.0.2">
+            <dependency ref="72-org.glassfish.jaxb:jaxb-core@4.0.2"></dependency>
+        </dependency>
+        <dependency ref="72-org.glassfish.jaxb:jaxb-core@4.0.2">
+            <dependency ref="73-com.sun.istack:istack-commons-runtime@4.1.1"></dependency>
+            <dependency ref="74-org.glassfish.jaxb:txw2@4.0.2"></dependency>
+            <dependency ref="75-org.eclipse.angus:angus-activation@2.0.0"></dependency>
+            <dependency ref="76-jakarta.activation:jakarta.activation-api@2.1.1"></dependency>
+            <dependency ref="77-jakarta.xml.bind:jakarta.xml.bind-api@4.0.0"></dependency>
+        </dependency>
+        <dependency ref="73-com.sun.istack:istack-commons-runtime@4.1.1"></dependency>
+        <dependency ref="74-org.glassfish.jaxb:txw2@4.0.2"></dependency>
+        <dependency ref="75-org.eclipse.angus:angus-activation@2.0.0">
+            <dependency ref="76-jakarta.activation:jakarta.activation-api@2.1.1"></dependency>
+        </dependency>
+        <dependency ref="76-jakarta.activation:jakarta.activation-api@2.1.1"></dependency>
+        <dependency ref="77-jakarta.xml.bind:jakarta.xml.bind-api@4.0.0"></dependency>
+        <dependency ref="78-net.bytebuddy:byte-buddy@1.12.23"></dependency>
+        <dependency ref="79-org.jboss:jandex@2.4.2.Final"></dependency>
+        <dependency ref="80-org.hibernate.common:hibernate-commons-annotations@6.0.6.Final"></dependency>
+        <dependency ref="81-jakarta.transaction:jakarta.transaction-api@2.0.1"></dependency>
+        <dependency ref="82-jakarta.persistence:jakarta.persistence-api@3.1.0"></dependency>
+        <dependency ref="83-org.springframework.boot:spring-boot-starter-jdbc@3.0.3">
+            <dependency ref="66-org.springframework:spring-jdbc@6.0.5"></dependency>
+            <dependency ref="84-com.zaxxer:HikariCP@5.0.1"></dependency>
+            <dependency ref="46-org.springframework.boot:spring-boot-starter@3.0.3"></dependency>
+        </dependency>
+        <dependency ref="84-com.zaxxer:HikariCP@5.0.1">
+            <dependency ref="39-org.slf4j:slf4j-api@2.0.6"></dependency>
+        </dependency>
+        <dependency ref="85-org.springframework.boot:spring-boot-starter-aop@3.0.3">
+            <dependency ref="62-org.aspectj:aspectjweaver@1.9.19"></dependency>
+            <dependency ref="59-org.springframework:spring-aop@6.0.5"></dependency>
+            <dependency ref="46-org.springframework.boot:spring-boot-starter@3.0.3"></dependency>
+        </dependency>
+        <dependency ref="86-com.h2database:h2@2.1.214"></dependency>
+        <dependency ref="87-org.springdoc:springdoc-openapi-starter-webmvc-ui@2.0.0">
+            <dependency ref="88-io.github.classgraph:classgraph@4.8.149"></dependency>
+            <dependency ref="89-org.webjars:webjars-locator-core@0.52"></dependency>
+            <dependency ref="90-org.webjars:swagger-ui@4.15.5"></dependency>
+            <dependency ref="91-org.springdoc:springdoc-openapi-starter-webmvc-api@2.0.0"></dependency>
+        </dependency>
+        <dependency ref="88-io.github.classgraph:classgraph@4.8.149"></dependency>
+        <dependency ref="89-org.webjars:webjars-locator-core@0.52">
+            <dependency ref="39-org.slf4j:slf4j-api@2.0.6"></dependency>
+        </dependency>
+        <dependency ref="90-org.webjars:swagger-ui@4.15.5"></dependency>
+        <dependency ref="91-org.springdoc:springdoc-openapi-starter-webmvc-api@2.0.0">
+            <dependency ref="92-org.springframework:spring-webmvc@6.0.5"></dependency>
+            <dependency ref="96-org.springdoc:springdoc-openapi-starter-common@2.0.0"></dependency>
+        </dependency>
+        <dependency ref="92-org.springframework:spring-webmvc@6.0.5">
+            <dependency ref="93-org.springframework:spring-web@6.0.5"></dependency>
+            <dependency ref="57-org.springframework:spring-expression@6.0.5"></dependency>
+            <dependency ref="7-org.springframework:spring-core@6.0.5"></dependency>
+            <dependency ref="56-org.springframework:spring-context@6.0.5"></dependency>
+            <dependency ref="58-org.springframework:spring-beans@6.0.5"></dependency>
+            <dependency ref="59-org.springframework:spring-aop@6.0.5"></dependency>
+        </dependency>
+        <dependency ref="93-org.springframework:spring-web@6.0.5">
+            <dependency ref="94-io.micrometer:micrometer-observation@1.10.4"></dependency>
+            <dependency ref="7-org.springframework:spring-core@6.0.5"></dependency>
+            <dependency ref="58-org.springframework:spring-beans@6.0.5"></dependency>
+        </dependency>
+        <dependency ref="94-io.micrometer:micrometer-observation@1.10.4">
+            <dependency ref="95-io.micrometer:micrometer-commons@1.10.4"></dependency>
+        </dependency>
+        <dependency ref="95-io.micrometer:micrometer-commons@1.10.4"></dependency>
+        <dependency ref="96-org.springdoc:springdoc-openapi-starter-common@2.0.0">
+            <dependency ref="97-io.swagger.core.v3:swagger-core-jakarta@2.2.7"></dependency>
+            <dependency ref="54-org.springframework.boot:spring-boot-autoconfigure@3.0.3"></dependency>
+        </dependency>
+        <dependency ref="97-io.swagger.core.v3:swagger-core-jakarta@2.2.7">
+            <dependency ref="98-com.fasterxml.jackson.datatype:jackson-datatype-jsr310@2.14.2"></dependency>
+            <dependency ref="102-com.fasterxml.jackson.dataformat:jackson-dataformat-yaml@2.14.2"></dependency>
+            <dependency ref="99-com.fasterxml.jackson.core:jackson-databind@2.14.2"></dependency>
+            <dependency ref="101-com.fasterxml.jackson.core:jackson-annotations@2.14.2"></dependency>
+            <dependency ref="44-jakarta.validation:jakarta.validation-api@3.0.2"></dependency>
+            <dependency ref="22-jakarta.xml.bind:jakarta.xml.bind-api@4.0.0"></dependency>
+            <dependency ref="47-org.yaml:snakeyaml@1.33"></dependency>
+            <dependency ref="103-io.swagger.core.v3:swagger-models-jakarta@2.2.7"></dependency>
+            <dependency ref="104-io.swagger.core.v3:swagger-annotations-jakarta@2.2.7"></dependency>
+            <dependency ref="39-org.slf4j:slf4j-api@2.0.6"></dependency>
+            <dependency ref="105-org.apache.commons:commons-lang3@3.12.0"></dependency>
+        </dependency>
+        <dependency ref="98-com.fasterxml.jackson.datatype:jackson-datatype-jsr310@2.14.2">
+            <dependency ref="99-com.fasterxml.jackson.core:jackson-databind@2.14.2"></dependency>
+            <dependency ref="100-com.fasterxml.jackson.core:jackson-core@2.14.2"></dependency>
+            <dependency ref="101-com.fasterxml.jackson.core:jackson-annotations@2.14.2"></dependency>
+        </dependency>
+        <dependency ref="99-com.fasterxml.jackson.core:jackson-databind@2.14.2">
+            <dependency ref="100-com.fasterxml.jackson.core:jackson-core@2.14.2"></dependency>
+            <dependency ref="101-com.fasterxml.jackson.core:jackson-annotations@2.14.2"></dependency>
+        </dependency>
+        <dependency ref="100-com.fasterxml.jackson.core:jackson-core@2.14.2"></dependency>
+        <dependency ref="101-com.fasterxml.jackson.core:jackson-annotations@2.14.2"></dependency>
+        <dependency ref="102-com.fasterxml.jackson.dataformat:jackson-dataformat-yaml@2.14.2">
+            <dependency ref="100-com.fasterxml.jackson.core:jackson-core@2.14.2"></dependency>
+            <dependency ref="47-org.yaml:snakeyaml@1.33"></dependency>
+            <dependency ref="99-com.fasterxml.jackson.core:jackson-databind@2.14.2"></dependency>
+        </dependency>
+        <dependency ref="103-io.swagger.core.v3:swagger-models-jakarta@2.2.7">
+            <dependency ref="101-com.fasterxml.jackson.core:jackson-annotations@2.14.2"></dependency>
+        </dependency>
+        <dependency ref="104-io.swagger.core.v3:swagger-annotations-jakarta@2.2.7"></dependency>
+        <dependency ref="105-org.apache.commons:commons-lang3@3.12.0"></dependency>
+        <dependency ref="106-org.junit.jupiter:junit-jupiter@5.7.2">
+            <dependency ref="107-org.junit.jupiter:junit-jupiter-engine@5.9.2"></dependency>
+            <dependency ref="113-org.junit.jupiter:junit-jupiter-params@5.9.2"></dependency>
+            <dependency ref="109-org.junit.jupiter:junit-jupiter-api@5.9.2"></dependency>
+        </dependency>
+        <dependency ref="107-org.junit.jupiter:junit-jupiter-engine@5.9.2">
+            <dependency ref="108-org.apiguardian:apiguardian-api@1.1.2"></dependency>
+            <dependency ref="109-org.junit.jupiter:junit-jupiter-api@5.9.2"></dependency>
+            <dependency ref="112-org.junit.platform:junit-platform-engine@1.9.2"></dependency>
+        </dependency>
+        <dependency ref="108-org.apiguardian:apiguardian-api@1.1.2"></dependency>
+        <dependency ref="109-org.junit.jupiter:junit-jupiter-api@5.9.2">
+            <dependency ref="108-org.apiguardian:apiguardian-api@1.1.2"></dependency>
+            <dependency ref="110-org.junit.platform:junit-platform-commons@1.9.2"></dependency>
+            <dependency ref="111-org.opentest4j:opentest4j@1.2.0"></dependency>
+        </dependency>
+        <dependency ref="110-org.junit.platform:junit-platform-commons@1.9.2">
+            <dependency ref="108-org.apiguardian:apiguardian-api@1.1.2"></dependency>
+        </dependency>
+        <dependency ref="111-org.opentest4j:opentest4j@1.2.0"></dependency>
+        <dependency ref="112-org.junit.platform:junit-platform-engine@1.9.2">
+            <dependency ref="108-org.apiguardian:apiguardian-api@1.1.2"></dependency>
+            <dependency ref="110-org.junit.platform:junit-platform-commons@1.9.2"></dependency>
+            <dependency ref="111-org.opentest4j:opentest4j@1.2.0"></dependency>
+        </dependency>
+        <dependency ref="113-org.junit.jupiter:junit-jupiter-params@5.9.2">
+            <dependency ref="108-org.apiguardian:apiguardian-api@1.1.2"></dependency>
+            <dependency ref="109-org.junit.jupiter:junit-jupiter-api@5.9.2"></dependency>
+        </dependency>
+    </dependencies>
+</bom>
